@@ -1,0 +1,191 @@
+
+
+
+h1 {font-family: 'La Belle Aurore', cursive;
+    font-family: 'Sue Ellen Francisco', cursive;
+}
+
+h4 {font-family: 'La Belle Aurore', cursive;
+    font-family: 'Sue Ellen Francisco', cursive;
+}
+
+
+h4 {
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.gold-box {
+  background-color: gold;
+  margin-top: 25px;
+  margin-bottom: 55px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h4 {
+    font-size: 31px;
+}
+
+
+.purple-box {
+  background-color: purple;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.box {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  text-align: center;
+}
+
+
+.container-fluid {
+  padding-top: inherit;
+  padding-bottom: inherit;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.injected-text {
+  margin-bottom: -35px;
+  text-align: center;
+}
+
+li {font-size: 20px;
+    color: #ffffff;
+}
+
+
+body  {
+    background-color: #000000;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p { color: #ffffff;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: purple;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:  #ffff00;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.btn-group button {
+    background-color: #990099; /* purple background */
+    border: 5px solid yellow; /* yellow border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+.btn-group button:hover {
+    background-color: #000000;
+}
+
+.p {
+font-size: 16px;}
+
