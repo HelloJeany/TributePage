@@ -1,6 +1,5 @@
 
 
-
 h1 {font-family: 'La Belle Aurore', cursive;
     font-family: 'Sue Ellen Francisco', cursive;
 }
@@ -50,14 +49,14 @@ h4 {
   border-style: solid;
   border-color: black;
   border-width: 3px;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 
 .container-fluid {
   padding-top: inherit;
   padding-bottom: inherit;
-  color: #ffffff;
+  color: yellow;
   font-size: 30px;
 }
 
@@ -90,8 +89,9 @@ p { color: #ffffff;
 
 .image {
   display: block;
-  width: 100%;
+  width: 50%;
   height: auto;
+  text-align: center
   
 }
 
@@ -101,19 +101,27 @@ p { color: #ffffff;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
+  height: 50%;
+  width: 50%;
+  opacity: 1;
   transition: .5s ease;
   background-color: #000000;
+  
 }
 
 .container:hover .overlay {
-  opacity: 1;
+  opacity: ;
 }
 
-.text {
+.paragraph {
+  font-size: 15px;
+}
+
+.this {
   color: purple;
+}
+.text {
+  color: #ffff00;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -157,7 +165,7 @@ p { color: #ffffff;
 .button:hover span {
   padding-right: 25px;
 }
-
+/*smfn*/
 .button:hover span:after {
   opacity: 1;
   right: 0;
@@ -189,3 +197,12 @@ p { color: #ffffff;
 .p {
 font-size: 16px;}
 
+.footer {
+ text-align: center
+}
+
+.item  {
+  height: 50%;
+  width: 50%;
+  text-align: center
+}
